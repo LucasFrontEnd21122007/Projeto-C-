@@ -1,0 +1,19 @@
+using System;
+namespace Projeto
+{
+    class Programa
+    {
+        static void main(string[] args)
+        {
+            console.WriteLine("Bem-Vindo ao meu programa");
+            console.WriteLine("Por Favor, Digite o seu nome");
+            String nome = console.WriteLine();
+            console.WriteLine("Digite a sua idade");
+            int idade = convert.ToInt18(console.ReadLine());4
+            int idadeDaquiaDezAnos = idade + 10;
+            console.WriteLine($"Olá, {Nome}! daqui a 10 anos você tera a {idadedaquiadezanos} anos.");
+              Console.WriteLine("Pressione qualquer tecla para sair.");
+            Console.ReadKey();
+        }
+    }
+};
